@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: #9499a2;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(219.31, 66%, 43%) 0, transparent 55%);
+}
+
+
+.container{
+    width: 350px;
+    min-height: 300px;
+    margin: 30px auto;
+    color: #1538ff;
+    
+}
+
+
+.container h1{
+    text-align: center;
+    font-size: 36px;
+    color: blue;
+    text-shadow:5px 5px 10px white;   
+}
+
+
+.container h1:hover{
+    color: white;
+    text-shadow:5px 5px 10px blue;   
+}
+
+
+
+.calculator{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+
+
+.display{
+    min-height: 110px;
+    width: 100%;
+    padding: 10px;
+    text-align: end;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+
+
+
+.display1{
+    min-height: 30px;
+}
+
+
+
+.buttons, .show-result{
+    width: 22%;
+    height: 40px;
+    font-size: 1.4rem;
+    margin: 5px 2px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.spch{
+    width: 14%;
+    background-color: #1538ff;
+    color: white;
+    border-radius: 19px;
+}
+
+.show-result{
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+   
+}
+
+
+.show-result:hover{
+    background-color:blue;
+    color:white;
+    
+    
+}
+
+
+
+/* Button background color designing */
+.clear{
+    background-color: #1538ff;
+    color: white;
+    border-radius: 19px;
+}
+.backspace{
+    background-color: #1538ff;
+    color: white;
+    border-radius: 19px;
+}
+.operator{
+    background-color: #1538ff;
+    color: white;
+    border-radius: 19px;
+}
+.input{
+    background-color: #1538ff;
+    color: white;
+    border-radius: 19px;
+}
